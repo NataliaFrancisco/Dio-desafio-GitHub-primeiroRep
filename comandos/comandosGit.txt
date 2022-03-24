@@ -1,0 +1,14 @@
+## Para configurar e-mail e nome do usuário no Git(uma das primeiras coisas a se fazer após instalar o Git no pc):
+
+git config --global user.e-mail"digite aqui seu email"
+git config --global user.name mariaexemplo
+
+## outros comandos básicos:
+
+git init (inicia o monitoramento de um projeto existente com git);
+git clone[URL] (faz a copia de um repositório disponível no github);
+git add. (adiciona/monitora pastas e arquivos novos)
+git status (mostra o estado em que os arquivos se encontram, se estão monitorados ou não)
+git commit -m "mensagemexemplo" (efetiva as mudanças em um novo commit com uma mensagem que deve descrever as mudanças feitas);
+git push origin main (transfere commits do seu repositório local para o remoto);
+git pull origin main (transfere alterações feitas no repositório remoto para o local);
