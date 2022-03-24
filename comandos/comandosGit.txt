@@ -1,7 +1,7 @@
 ## Para configurar e-mail e nome do usuário no Git(uma das primeiras coisas a se fazer após instalar o Git no pc):
 
-git config --global user.e-mail"digite aqui seu email"
-git config --global user.name mariaexemplo
+git config --global user.e-mail digite aqui seu email
+git config --global user.name "mariaexemplo"
 
 ## outros comandos básicos:
 
